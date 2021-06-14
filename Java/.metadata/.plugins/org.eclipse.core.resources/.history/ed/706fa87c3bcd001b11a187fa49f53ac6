@@ -1,0 +1,10 @@
+package com.management.tool.domain;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="Project")
+public class Project {
+
+
+}
