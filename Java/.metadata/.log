@@ -175,3 +175,69 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-06-14 22:31:42.476
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:15:53.621
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iGRiGBYz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:15:53.667
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iGRiGBYz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:15:53.676
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:15:53.679
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iGRiGBYz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:18.188
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:18.353
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7392078c[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:18.826
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.458
+!MESSAGE Boot LS startup time from start to initialized: 4630ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.616
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lsdhpKRbisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.618
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.621
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.624
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.631
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lsdhpKRb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.639
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.646
+!MESSAGE buffering callback sts4.classpath.lsdhpKRb management_tool false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:23.649
+!MESSAGE executing callback sts4.classpath.lsdhpKRb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:24.269
+!MESSAGE executing callback sts4.classpath.lsdhpKRb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:26.767
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lsdhpKRb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:26.868
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lsdhpKRb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:26.873
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-14 23:16:26.881
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lsdhpKRb => OK
