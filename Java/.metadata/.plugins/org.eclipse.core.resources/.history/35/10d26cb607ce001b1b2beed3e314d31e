@@ -1,8 +1,6 @@
 package com.management.tool.controller;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.validation.Valid;
 
@@ -31,14 +29,7 @@ public ResponseEntity<?> createProject(@Valid @RequestBody Project project,Bindi
 { 
 	 if(result.hasErrors())
 	 {
-		 Map<String,String> errorMap = new HashMap<String,String>();
-		 
-		 for(FieldError error: result.getFieldErrors())
-		 {
-			 errorMap.put(error.getField(),error.getDefaultMessage());
-		 }
-		 
-		 return new ResponseEntity<Map<String,String>>(errorMap,HttpStatus.BAD_REQUEST);
+		 return new ResponseEntity<List<FieldError>>(result.getFieldErrors(),HttpStatus.BAD_REQUEST);
 	 }
 	
 	project = projectService.saveOrUpdateProject(project);
