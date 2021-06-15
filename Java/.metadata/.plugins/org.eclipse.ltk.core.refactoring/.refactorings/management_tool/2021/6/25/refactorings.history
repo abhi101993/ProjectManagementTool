@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.management.tool.domain&apos; to &apos;com.management.tool.entity&apos;&#x0D;&#x0A;- Original project: &apos;management_tool&apos;&#x0D;&#x0A;- Original element: &apos;management_tool/src/main/java/com.management.tool.domain&apos;&#x0D;&#x0A;- Renamed element: &apos;management_tool/src/main/java/com.management.tool.entity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.management.tool.domain&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.management.tool.domain" name="com.management.tool.entity" qualified="false" references="true" stamp="1623767152556" textual="false" version="1.0"/>
+</session>
