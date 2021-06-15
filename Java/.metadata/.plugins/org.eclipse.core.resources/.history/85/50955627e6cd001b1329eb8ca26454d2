@@ -1,0 +1,5 @@
+package com.management.tool.service;
+
+public class ProjectServiceImpl implements ProjectService {
+
+}

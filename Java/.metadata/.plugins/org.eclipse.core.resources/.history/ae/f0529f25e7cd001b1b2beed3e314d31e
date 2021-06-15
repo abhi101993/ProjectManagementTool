@@ -1,0 +1,5 @@
+package com.management.tool.service;
+
+public interface ProjectService {
+
+}
