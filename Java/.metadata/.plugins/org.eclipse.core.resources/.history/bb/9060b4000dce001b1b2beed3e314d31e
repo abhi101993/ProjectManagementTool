@@ -1,0 +1,5 @@
+package com.management.tool.utility;
+
+public class MapValidationErrorService {
+
+}
